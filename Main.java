@@ -11,9 +11,10 @@ public class Main {
 
 
         //2. Сумує їх попарно.
+        
         //3. Виводить результат порівняння сум (true, якщо перша сума більша).
 
-        String sumAndCompare = a+b > c+d ? "Yes" : "No";
+        String sumAndCompare = a+b > c+d ? "Yes3" : "No3";
         System.out.println(sumAndCompare);   
 
         // Or
