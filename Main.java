@@ -5,7 +5,7 @@ public class Main {
         //1. Надає значення 4 полям типу int.
 
         int a = 5;
-        int b = 5;
+        int b = 4;
         int c = 3;
         int d = 2;
 
@@ -42,7 +42,7 @@ public class Main {
         
         // 7. Виводить true якщо хоча б одна сума кратна 2, інакше - false.
 
-        String sumAndComparing2 = (((a+b)/2) == 0) || (((c+d)/2) == 0) ? "Yes7" : "No7";
+        String sumAndComparing2 = (firstSumPlusOne%2 == 0) || (secondSumPlusOne%2 == 0) ? "Yes7" : "No7";
         System.out.println(sumAndComparing2);   
 
         
