@@ -32,7 +32,7 @@ public class Main {
 
         // 6. Виводить результат порівняння (true якщо перша сума більша).
 
-        String sumAndComparing = firstSumPlusOne > secondSumPlusOne ? "Yes" : "No";
+        String sumAndComparing = firstSumPlusOne > secondSumPlusOne ? "Yes6" : "No6";
         System.out.println(sumAndComparing);   
 
         // Or
@@ -41,8 +41,8 @@ public class Main {
         
         // 7. Виводить true якщо хоча б одна сума кратна 2, інакше - false.
 
-        String sumAndComparing = firstSumPlusOne > secondSumPlusOne ? "Yes" : "No";
-        System.out.println(sumAndComparing);   
+        String sumAndComparing2 = (firstSumPlusOne/2 != 0) || (secondSumPlusOne/2 != 0) ? "Yes7" : "No7";
+        System.out.println(sumAndComparing2);   
 
         
         
