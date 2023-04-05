@@ -12,40 +12,31 @@ public class Main {
 
         //2. Сумує їх попарно.
 
+        int ab = a+b;
+        int cd = c+d;
+
         //3. Виводить результат порівняння сум (true, якщо перша сума більша).
 
-        String sumAndCompare = a+b > c+d ? "Yes3" : "No3";
-        System.out.println(sumAndCompare);   
-
-        // Or
-
-        System.out.println((a+b)>(c+d));
+        System.out.println(ab>cd);
 
         //4. Збільшує першу суму на 1.
 
-        Integer firstSumPlusOne = (a+b);
-        System.out.println(++firstSumPlusOne);
+        int increaseAB = ++ab;
+        System.out.println(increaseAB);
         
         // 5. Другу суму зменшує на 2.
 
-        Integer secondSumPlusOne = (c+d);
-        System.out.println(secondSumPlusOne -2);
+        int decreaseCD = cd -2;
+        System.out.println(decreaseCD);
 
         // 6. Виводить результат порівняння (true якщо перша сума більша).
 
-        String sumAndComparing = firstSumPlusOne > secondSumPlusOne ? "Yes6" : "No6";
-        System.out.println(sumAndComparing);   
-
-        // Or
-
-        System.out.println(firstSumPlusOne>secondSumPlusOne);
+        System.out.println(increaseAB>decreaseCD);
         
         // 7. Виводить true якщо хоча б одна сума кратна 2, інакше - false.
 
-        String sumAndComparing2 = (firstSumPlusOne%2 == 0) || (secondSumPlusOne%2 == 0) ? "Yes7" : "No7";
-        System.out.println(sumAndComparing2);   
+        System.out.println((increaseAB%2 == 0) || (decreaseCD%2 == 0));   
 
-        
         
     }
 }
